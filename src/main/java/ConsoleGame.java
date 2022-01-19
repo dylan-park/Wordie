@@ -1,14 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Game implements IGame {
+public class ConsoleGame implements IGame {
     private int tries;
     private final Word word;
     private String[] output;
     private boolean win;
     private boolean valid;
 
-    public Game(String word) {
+    public ConsoleGame(String word) {
         this.word = new Word(word);
         tries = 0;
         win = false;

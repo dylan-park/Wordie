@@ -1,1 +1,8 @@
 # Wordie
+An open-source java implementation of the hit game [Wordle](https://www.powerlanguage.co.uk/wordle/).
+## Features
+- Unlimited rounds (Goodbye one a day puzzles :D)
+- Implementation at the console level, and at the upper web level (WIP)
+- Built with  easy to implement interface classes in order to extend the gameplay functionality to any other service. 
+## Usage
+(WIP)

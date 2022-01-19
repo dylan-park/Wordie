@@ -2,8 +2,8 @@
 An open-source java implementation of the hit game [Wordle](https://www.powerlanguage.co.uk/wordle/).
 ## Features
 - Unlimited rounds (Goodbye once a day puzzles :D)
-- Implementation at the console level, and at the upper web level (WIP)
-- Built with easy to implement interface classes in order to extend the gameplay functionality to any other service. 
+- Implementation examples at the console level, and at a web level (WIP)
+- Built with easy to implement interface classes in order to extend the gameplay functionality to any other service you want. 
 ## Usage
 (WIP)
 

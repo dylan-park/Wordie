@@ -7,7 +7,7 @@ An open-source java implementation of the hit game [Wordle](https://www.powerlan
 ## Usage
 (WIP)
 
-##TODO
+## TODO
 - Ensure guesses are part of the dictionary (Prevent random character guessing)
 - Utilize optionals to avoid returning null values in Dictionary class
 - Clean up and comment logic

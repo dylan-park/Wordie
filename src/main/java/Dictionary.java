@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Dictionary {
@@ -25,11 +26,8 @@ public class Dictionary {
 
     public String getWordFromLineNumber(long lineNumber) {
         try (Stream<String> lines = Files.lines(Paths.get(pathString))) {
-            if(lines.skip(lineNumber - 1).findFirst().isPresent()){
-                return lines.skip(lineNumber - 1).findFirst().get();
-            } else {
-                return null;
-            }
+            Optional<String> word = lines.skip(lineNumber - 1).findFirst();
+            return word.orElse(null);
         } catch (IOException e) {
             e.printStackTrace();
             return null;

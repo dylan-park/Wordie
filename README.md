@@ -10,4 +10,3 @@ An open-source java implementation of the hit game [Wordle](https://www.powerlan
 ## TODO
 - Ensure guesses are part of the dictionary (Prevent random character guessing)
 - Utilize optionals to avoid returning null values in Dictionary class
-- More test coverage for all class functions

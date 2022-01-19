@@ -25,13 +25,16 @@ public class Game implements IGame {
             guess(input);
             if (win) {
                 System.out.println(Arrays.toString(output));
-                tries = 6;
+                tries = 7;
             } else {
                 if (valid) {
                     System.out.println(Arrays.toString(output));
                 }
                 tries++;
             }
+        }
+        if (tries == 6){
+            System.out.println("Game Over! The word was: " + word.getWordString());
         }
     }
 

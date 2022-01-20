@@ -1,0 +1,8 @@
+ABC
+DEF
+123
+456
+Hello
+There
+World
+Dog

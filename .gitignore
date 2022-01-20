@@ -1,6 +1,9 @@
 #Intelij
 .idea/
 
+#Github
+.github/
+
 # Compiled class file
 *.class
 

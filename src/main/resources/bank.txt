@@ -596,7 +596,6 @@ ammer
 ammos
 amnia
 amnic
-amnio
 amoke
 amoks
 amole
@@ -913,7 +912,6 @@ artha
 artic
 artie
 artly
-artoo
 artou
 artsy
 artus
@@ -956,7 +954,6 @@ askar
 asked
 asker
 askew
-askin
 askip
 askoi
 askos
@@ -1352,7 +1349,6 @@ barre
 barry
 barse
 barth
-barto
 barye
 basad
 basal
@@ -1869,7 +1865,6 @@ boder
 bodes
 bodge
 bodhi
-bodie
 bodle
 boers
 boffo
@@ -1901,7 +1896,6 @@ boldo
 boldu
 boled
 boles
-bolie
 bolis
 bolls
 bolly
@@ -2313,7 +2307,6 @@ butyr
 buxom
 buxus
 buyer
-buyin
 buzzy
 bwana
 byard
@@ -3084,7 +3077,6 @@ comet
 comfy
 comic
 comid
-comin
 comma
 comme
 commo
@@ -3367,7 +3359,6 @@ crost
 croup
 crout
 crowd
-crowe
 crowl
 crown
 crows
@@ -3393,7 +3384,6 @@ crust
 cruth
 crwth
 cryal
-cryin
 crypt
 cryst
 csect
@@ -3514,7 +3504,6 @@ cyclo
 cyder
 cydon
 cylix
-cylon
 cymae
 cymar
 cymas
@@ -4011,7 +4000,6 @@ doina
 doing
 doits
 dojos
-dokey
 dolce
 dolci
 doled
@@ -4054,12 +4042,10 @@ donor
 donsy
 donum
 donut
-doody
 dooja
 dooli
 dooly
 dooms
-doork
 doors
 doozy
 dopas
@@ -4071,7 +4057,6 @@ dorab
 dorad
 doray
 doree
-doren
 dorey
 doria
 doric
@@ -4165,7 +4150,6 @@ dreep
 drees
 dregs
 dreks
-drell
 dreng
 drent
 dress
@@ -4361,7 +4345,6 @@ eases
 easts
 eaten
 eater
-eatin
 eaved
 eaver
 eaves
@@ -4738,7 +4721,6 @@ exist
 exite
 exits
 exlex
-exley
 exode
 exody
 exopt
@@ -4819,6 +4801,7 @@ falla
 falls
 fally
 false
+FALSE
 falun
 falus
 famed
@@ -4913,7 +4896,6 @@ feeds
 feedy
 feels
 feely
-feeny
 feere
 feest
 feeze
@@ -5081,7 +5063,6 @@ fjord
 flabs
 flack
 flaff
-flagg
 flags
 flail
 flain
@@ -5195,7 +5176,6 @@ fluty
 fluyt
 flyby
 flyer
-flyin
 flype
 flyte
 fname
@@ -6224,7 +6204,6 @@ haems
 haets
 hafis
 hafiz
-hafta
 hafts
 hagar
 haggy
@@ -6362,7 +6341,6 @@ havel
 haven
 haver
 haves
-havin
 havoc
 hawed
 hawer
@@ -6388,7 +6366,6 @@ heads
 heady
 heald
 heals
-healy
 heaps
 heapy
 heard
@@ -6537,7 +6514,6 @@ hinds
 hindu
 hiney
 hinge
-hinks
 hinny
 hints
 hiper
@@ -6644,7 +6620,6 @@ hopak
 hoped
 hoper
 hopes
-hopin
 hopis
 hoppo
 hoppy
@@ -7077,7 +7052,6 @@ izote
 iztle
 izumi
 izzat
-jabba
 jabez
 jabia
 jabot
@@ -7223,7 +7197,6 @@ jinks
 jinni
 jinns
 jinny
-jinxy
 jiqui
 jirga
 jisms
@@ -7483,7 +7456,6 @@ kella
 kelly
 kelps
 kelpy
-kelso
 kelts
 kelty
 kemal
@@ -7549,7 +7521,6 @@ khila
 khmer
 khoja
 khoka
-kholi
 khond
 khuai
 khula
@@ -7626,7 +7597,6 @@ kites
 kithe
 kiths
 kitty
-kivar
 kivas
 kiver
 kiwai
@@ -7749,7 +7719,6 @@ kotar
 kotos
 kotow
 kouza
-kovac
 kovil
 koyan
 kraal
@@ -7787,7 +7756,6 @@ kulah
 kulak
 kulan
 kuman
-kumar
 kumbi
 kumis
 kumni
@@ -7809,7 +7777,6 @@ kutch
 kutta
 kvass
 kvint
-kwang
 kwapa
 kwela
 kyack
@@ -7873,7 +7840,6 @@ laked
 laker
 lakes
 lakey
-lakhi
 lakhs
 lakie
 lakin
@@ -7994,7 +7960,6 @@ laxly
 layed
 layer
 layia
-layin
 layne
 layup
 lazar
@@ -8262,7 +8227,6 @@ liven
 liver
 lives
 livid
-livin
 livor
 livre
 liwan
@@ -8366,7 +8330,6 @@ lorum
 losel
 loser
 loses
-losin
 lossy
 lotah
 lotan
@@ -8399,7 +8362,6 @@ lovee
 lover
 loves
 lovey
-lovin
 lowan
 lowed
 lower
@@ -8541,7 +8503,6 @@ madid
 madly
 madoc
 madre
-maeby
 mafey
 mafia
 mafic
@@ -8590,7 +8551,6 @@ makah
 makar
 maker
 makes
-makin
 makos
 makua
 makuk
@@ -8804,7 +8764,6 @@ meaty
 meaul
 mebos
 mecca
-mecha
 mecon
 mecum
 medal
@@ -8819,7 +8778,6 @@ meece
 meech
 meeds
 meeks
-meems
 meese
 meeth
 meets
@@ -9050,7 +9008,6 @@ mixup
 mizar
 mizen
 mizzy
-mmhmm
 mnage
 mneme
 mnium
@@ -9239,7 +9196,6 @@ moved
 mover
 moves
 movie
-movin
 mowch
 mowed
 mower
@@ -9354,9 +9310,7 @@ musit
 musks
 musky
 mussy
-musta
 musth
-mustn
 musts
 musty
 mutch
@@ -9700,7 +9654,6 @@ nonyl
 nooks
 nooky
 noons
-noooo
 noose
 nopal
 norah
@@ -9954,7 +9907,6 @@ oohed
 oolak
 oolly
 oomph
-ooooh
 oopak
 oopod
 oorie
@@ -10336,7 +10288,6 @@ payed
 payee
 payen
 payer
-payin
 payne
 payni
 payor
@@ -11305,7 +11256,6 @@ rayas
 rayat
 rayed
 rayon
-raysy
 razed
 razee
 razer
@@ -11581,7 +11531,6 @@ rider
 rides
 ridge
 ridgy
-ridin
 riels
 rifer
 riffi
@@ -11694,7 +11643,6 @@ rompy
 ronco
 ronde
 rondo
-ronee
 ronga
 ronin
 ronni
@@ -11776,7 +11724,6 @@ royal
 royet
 royou
 rozum
-rsquo
 ruach
 ruana
 rubby
@@ -12070,7 +12017,6 @@ sayal
 sayee
 sayer
 sayid
-sayin
 sayst
 sazen
 scabs
@@ -12227,7 +12173,6 @@ seech
 seeds
 seedy
 seege
-seein
 seeks
 seels
 seely
@@ -12236,7 +12181,6 @@ seenu
 seeps
 seepy
 seers
-seeya
 segar
 seggy
 segni
@@ -13492,12 +13436,10 @@ subas
 subch
 suber
 subet
-subid
 subra
 subst
 succi
 sucks
-sucky
 sucre
 sudan
 sudds
@@ -13596,10 +13538,8 @@ swale
 swami
 swamp
 swamy
-swana
 swang
 swank
-swann
 swans
 swape
 swaps
@@ -14182,7 +14122,6 @@ tinct
 tinea
 tined
 tines
-tinga
 tinge
 tingi
 tings
@@ -14344,7 +14283,6 @@ totty
 totum
 touch
 tough
-toula
 tould
 tourn
 tours
@@ -14499,7 +14437,6 @@ trush
 truss
 trust
 truth
-tryin
 tryma
 tryms
 trypa
@@ -14614,7 +14551,6 @@ tweag
 tweak
 tweed
 tweeg
-tweek
 tweel
 tween
 tweet
@@ -15157,7 +15093,6 @@ vigil
 vigor
 vijao
 vijay
-vikki
 viler
 villa
 ville
@@ -15358,7 +15293,6 @@ wanle
 wanly
 wanna
 wanny
-wanta
 wants
 wanty
 wanze
@@ -15549,7 +15483,6 @@ white
 whits
 whity
 whizz
-whoah
 whole
 wholl
 whomp
@@ -15584,7 +15517,6 @@ wield
 wierd
 wifed
 wifes
-wifey
 wifie
 wigan
 wiggy
@@ -15795,7 +15727,6 @@ yacal
 yacca
 yacht
 yacks
-yadda
 yadim
 yaffs
 yager
@@ -15965,7 +15896,6 @@ zaman
 zambo
 zamia
 zande
-zandt
 zante
 zanza
 zanze
@@ -15988,7 +15918,6 @@ zeiss
 zeist
 zemmi
 zemni
-zende
 zendo
 zerda
 zerma

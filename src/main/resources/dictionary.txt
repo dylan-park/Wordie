@@ -8,7 +8,6 @@ abuse
 aches
 acres
 acted
-actin
 actor
 acute
 adapt
@@ -26,7 +25,6 @@ aging
 agony
 agree
 ahead
-ahold
 aides
 aimed
 aires
@@ -53,7 +51,6 @@ alvin
 amaze
 amigo
 amish
-amnio
 among
 amour
 ample
@@ -86,11 +83,9 @@ armor
 aroma
 arrow
 arson
-artoo
 ashes
 aside
 asked
-askin
 aspen
 assed
 asses
@@ -123,7 +118,6 @@ banks
 barge
 barks
 baron
-barto
 based
 bases
 basic
@@ -200,10 +194,8 @@ blurt
 blush
 board
 boats
-bodie
 bogus
 boils
-bolie
 bolts
 bombs
 bonds
@@ -237,7 +229,6 @@ brand
 brash
 brass
 brats
-brava
 brave
 bravo
 brawl
@@ -282,7 +273,6 @@ buses
 butch
 butts
 buyer
-buyin
 cabin
 cable
 caddy
@@ -304,14 +294,12 @@ cared
 cares
 cargo
 carol
-carpe
 carry
 carve
 cases
 casey
 catch
 cater
-cates
 cause
 caved
 caves
@@ -410,7 +398,6 @@ comes
 comet
 comfy
 comic
-comin
 condo
 cones
 coney
@@ -421,7 +408,6 @@ corey
 corny
 corps
 cosmo
-costa
 costs
 couch
 cough
@@ -461,7 +447,6 @@ crook
 crops
 cross
 crowd
-crowe
 crown
 crows
 crude
@@ -469,12 +454,9 @@ cruel
 crumb
 crush
 crust
-cryin
 crypt
-crème
 cuban
 cubes
-cuddy
 cuffs
 cupid
 cured
@@ -486,7 +468,6 @@ cuter
 cutie
 cyber
 cycle
-cylon
 daddy
 daddy
 daffy
@@ -545,20 +526,14 @@ diver
 dizzy
 docks
 dodge
-doesn
-doesn
 doggy
 doing
-dokey
 dolls
 dolly
 donor
 donut
-doody
-doork
 doors
 dopey
-doren
 dorky
 dorms
 doses
@@ -578,7 +553,6 @@ drawn
 draws
 dread
 dream
-drell
 dress
 dried
 drier
@@ -613,7 +587,6 @@ earth
 earth
 eaten
 eater
-eatin
 edges
 edith
 eerie
@@ -650,7 +623,6 @@ exams
 exile
 exist
 exits
-exley
 extra
 faced
 faces
@@ -680,7 +652,6 @@ feast
 fedex
 feeds
 feels
-feeny
 fella
 felon
 fence
@@ -714,7 +685,6 @@ fishy
 fists
 fixed
 fixes
-flagg
 flags
 flair
 flake
@@ -749,7 +719,6 @@ flunk
 flush
 flute
 flyer
-flyin
 focus
 folks
 foods
@@ -764,7 +733,6 @@ forum
 found
 fours
 foyer
-fraid
 frail
 frame
 fraud
@@ -822,7 +790,6 @@ girly
 given
 giver
 gives
-givin
 gland
 glare
 glass
@@ -890,7 +857,6 @@ gypsy
 habit
 hacks
 hades
-hafta
 hairs
 hairy
 hallo
@@ -898,12 +864,10 @@ halls
 hands
 handy
 hangs
-hanky
 happy
 hardy
 harpy
 harsh
-hasta
 haste
 hasty
 hatch
@@ -912,13 +876,11 @@ hates
 haunt
 haven
 haven
-havin
 havoc
 hawks
 hazel
 heads
 heals
-healy
 heard
 hears
 heart
@@ -939,7 +901,6 @@ hides
 hilda
 hills
 hindu
-hinks
 hints
 hired
 hires
@@ -961,7 +922,6 @@ hooky
 hoops
 hoped
 hopes
-hopin
 horns
 horny
 horse
@@ -1002,7 +962,6 @@ issue
 itchy
 items
 ivory
-jabba
 jabez
 jabot
 jacks
@@ -1017,8 +976,6 @@ jenny
 jerks
 jerky
 jewel
-jimbo
-jinxy
 jocks
 johns
 joins
@@ -1042,9 +999,7 @@ karma
 katie
 keane
 keeps
-kelso
 kerry
-kholi
 kicks
 kiddo
 kills
@@ -1053,9 +1008,7 @@ kinda
 kinds
 kings
 kinky
-kissy
 kitty
-kivar
 klutz
 knack
 kneel
@@ -1065,17 +1018,13 @@ knock
 knots
 known
 knows
-kovac
 kraft
 kudos
-kumar
-kwang
 label
 labor
 laced
 lacks
 lakes
-lakhi
 lamar
 lambs
 lamps
@@ -1095,7 +1044,6 @@ latex
 latte
 laugh
 layer
-layin
 leads
 leaks
 leaky
@@ -1138,7 +1086,6 @@ lists
 lived
 liver
 lives
-livin
 loads
 loans
 lobby
@@ -1149,14 +1096,12 @@ logic
 loins
 loner
 looks
-looky
 loony
 loops
 loose
 lords
 loser
 loses
-losin
 lotta
 lotte
 louie
@@ -1167,7 +1112,6 @@ lover
 lover
 loves
 lovey
-lovin
 lower
 lowly
 lowry
@@ -1190,7 +1134,6 @@ macho
 madam
 maddy
 madly
-maeby
 mafia
 magda
 magic
@@ -1199,7 +1142,6 @@ mails
 major
 maker
 makes
-makin
 males
 malik
 malls
@@ -1233,12 +1175,9 @@ mayor
 meals
 means
 meant
-mecha
 medal
 media
 medic
-meeks
-meems
 meets
 melon
 melts
@@ -1268,7 +1207,6 @@ missy
 misty
 mitts
 mixed
-mmhmm
 mocha
 model
 modem
@@ -1305,19 +1243,15 @@ moved
 moves
 movie
 movie
-movin
 mower
 mucho
 muddy
 mulan
 multi
-mumbo
 mummy
 mural
 mushy
 music
-musta
-mustn
 myers
 nadia
 nails
@@ -1326,18 +1260,15 @@ naked
 named
 names
 nanny
-nappa
 nasal
 nasty
 natty
 naval
 necks
-needn
 needs
 needy
 negro
 nelle
-nepal
 nerds
 nerve
 never
@@ -1430,7 +1361,6 @@ patsy
 patty
 pause
 paved
-payin
 payne
 peace
 peach
@@ -1534,7 +1464,6 @@ prude
 prune
 psych
 pubes
-puddy
 puffs
 puffy
 pulls
@@ -1585,7 +1514,6 @@ rates
 ratio
 ratty
 raven
-raysy
 razor
 reach
 react
@@ -1619,7 +1547,6 @@ rider
 rides
 ridge
 ridge
-ridin
 rifle
 right
 rigid
@@ -1649,7 +1576,6 @@ rogue
 roles
 rolfe
 rolls
-ronee
 rooms
 roots
 roped
@@ -1661,7 +1587,6 @@ round
 route
 rowdy
 royal
-rsquo
 rufus
 rugby
 ruins
@@ -1699,7 +1624,6 @@ saves
 savor
 savvy
 saxon
-sayin
 scale
 scalp
 scams
@@ -1723,17 +1647,14 @@ scrap
 screw
 scrub
 scuba
-scuse
 seals
 seams
 seats
 sedan
 seeds
 seedy
-seein
 seeks
 seems
-seeya
 seize
 sells
 semen
@@ -1747,7 +1668,6 @@ seven
 sever
 sewed
 sewer
-señor
 shack
 shade
 shady
@@ -1867,8 +1787,6 @@ solid
 solve
 sonar
 songs
-sorel
-sorel
 sores
 sorry
 sorta
@@ -1927,7 +1845,6 @@ stall
 stamp
 stamp
 stand
-stang
 stare
 stark
 stars
@@ -1985,9 +1902,7 @@ stunk
 stunt
 style
 suave
-subid
 sucks
-sucky
 suede
 sugar
 suing
@@ -1998,8 +1913,6 @@ super
 surge
 sushi
 swamp
-swana
-swann
 swans
 swear
 sweat
@@ -2026,7 +1939,6 @@ tails
 taken
 taker
 takes
-takin
 tales
 talks
 tally
@@ -2061,7 +1973,6 @@ terms
 tests
 testy
 thank
-thats
 theft
 their
 theme
@@ -2098,7 +2009,6 @@ timed
 timer
 times
 timid
-tinga
 tired
 tires
 titan
@@ -2121,7 +2031,6 @@ torch
 total
 touch
 tough
-toula
 tours
 towed
 towel
@@ -2163,7 +2072,6 @@ trump
 trunk
 trust
 truth
-tryin
 tubes
 tulsa
 tummy
@@ -2174,7 +2082,6 @@ turbo
 turns
 tutor
 twain
-tweek
 twerp
 twice
 twins
@@ -2224,7 +2131,6 @@ vials
 vibes
 video
 views
-vikki
 villa
 vinyl
 viola
@@ -2260,7 +2166,6 @@ walls
 waltz
 wanda
 wanna
-wanta
 wants
 warms
 warts
@@ -2281,7 +2186,6 @@ weigh
 weird
 wells
 wench
-weren
 whack
 whale
 wharf
@@ -2301,14 +2205,12 @@ whiny
 whirl
 whisk
 white
-whoah
 whole
 whoop
 whore
 whose
 wider
 widow
-wifey
 wills
 wilma
 wimps
@@ -2355,7 +2257,6 @@ wrong
 wrote
 xerox
 yacht
-yadda
 yahoo
 yards
 years
@@ -2364,11 +2265,8 @@ yield
 yikes
 young
 yours
-youse
 youth
 yummy
-zandt
 zebra
-zende
 ziggy
 zones

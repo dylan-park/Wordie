@@ -10,4 +10,5 @@ The gameplay of Wordie is meant to emulate the original as closely as possible i
 (WIP)
 
 ## TODO
+- Build web app
 - Utilize optionals to avoid returning null values in Dictionary class

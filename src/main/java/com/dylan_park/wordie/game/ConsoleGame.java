@@ -17,6 +17,13 @@ public class ConsoleGame implements IGame {
     private boolean win;
     private boolean valid;
 
+    public static void main(String[] args) {
+        Dictionary dictionary = new Dictionary("src/main/resources/dictionary.txt");
+        Dictionary bank = new Dictionary("src/main/resources/bank.txt");
+        IGame consoleGame = new ConsoleGame(dictionary, bank);
+        consoleGame.gameLoop();
+    }
+
     public ConsoleGame(@NotNull Dictionary dictionary, @NotNull Dictionary bank) {
         this.word = new Word(dictionary.getDictionaryArray().get(new Random().nextInt(dictionary.getDictionaryArray().size())));
         this.bank = bank.getDictionaryArray();

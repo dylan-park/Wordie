@@ -1,3 +1,7 @@
+package com.dylan_park.wordie.game;
+
+import com.dylan_park.wordie.data.Dictionary;
+import com.dylan_park.wordie.data.Word;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -83,7 +87,7 @@ public class ConsoleGame implements IGame {
             }
             // If word is incorrect length
         } else {
-            System.out.println("Word is invalid, try again");
+            System.out.println("com.dylan_park.wordie.data.Word is invalid, try again");
         }
     }
 

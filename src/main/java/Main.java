@@ -1,3 +1,7 @@
+import com.dylan_park.wordie.data.Dictionary;
+import com.dylan_park.wordie.game.ConsoleGame;
+import com.dylan_park.wordie.game.IGame;
+
 public class Main {
     public static void main(String[] args) {
         Dictionary dictionary = new Dictionary("src/main/resources/dictionary.txt");

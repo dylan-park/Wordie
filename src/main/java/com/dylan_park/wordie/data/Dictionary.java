@@ -1,3 +1,5 @@
+package com.dylan_park.wordie.data;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

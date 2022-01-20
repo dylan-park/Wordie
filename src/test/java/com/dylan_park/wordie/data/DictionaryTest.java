@@ -1,3 +1,6 @@
+package com.dylan_park.wordie.data;
+
+import com.dylan_park.wordie.data.Dictionary;
 import org.junit.Before;
 import org.junit.Test;
 

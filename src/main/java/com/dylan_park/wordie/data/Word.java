@@ -1,3 +1,5 @@
+package com.dylan_park.wordie.data;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;

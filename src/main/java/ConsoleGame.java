@@ -54,7 +54,7 @@ public class ConsoleGame implements IGame {
         // Set the output to the input before any checks, so entire word is shown. This also marks letters as "Gray"
         output = input.split("");
         // If word is correct length
-        if (input.length() == word.getLength() && bank.contains(input)) {
+        if (input.length() == word.getLength() && bank.stream().anyMatch(input::equalsIgnoreCase)) {
             valid = true;
             // Split input into the guess array
             String[] guess = input.split("");

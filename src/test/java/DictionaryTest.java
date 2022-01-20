@@ -26,6 +26,6 @@ public class DictionaryTest {
 
     @Test
     public void getWordFromLineNumber() {
-        assertEquals("Hello", dictionary.getWordFromLineNumber(3));
+        assertEquals("hello", dictionary.getWordFromLineNumber(3));
     }
 }

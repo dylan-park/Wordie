@@ -1,8 +1,9 @@
-ABC
-DEF
+abc
+def
 123
 456
-Hello
-There
-World
-Dog
+hello
+there
+world
+dog
+god

@@ -1,17 +1,21 @@
 import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class ConsoleGame implements IGame {
     private int tries;
     private final Word word;
+    private final ArrayList<String> bank;
     private String[] output;
     private boolean win;
     private boolean valid;
 
-    public ConsoleGame(String word) {
-        this.word = new Word(word);
+    public ConsoleGame(@NotNull Dictionary dictionary, @NotNull Dictionary bank) {
+        this.word = new Word(dictionary.getDictionaryArray().get(new Random().nextInt(dictionary.getDictionaryArray().size())));
+        this.bank = bank.getDictionaryArray();
         tries = 0;
         win = false;
         output = new String[this.word.getLength()];
@@ -50,7 +54,7 @@ public class ConsoleGame implements IGame {
         // Set the output to the input before any checks, so entire word is shown. This also marks letters as "Gray"
         output = input.split("");
         // If word is correct length
-        if (input.length() == word.getLength()) {
+        if (input.length() == word.getLength() && bank.contains(input)) {
             valid = true;
             // Split input into the guess array
             String[] guess = input.split("");
@@ -79,7 +83,7 @@ public class ConsoleGame implements IGame {
             }
             // If word is incorrect length
         } else {
-            System.out.println("Word length incorrect, try again");
+            System.out.println("Word is invalid, try again");
         }
     }
 

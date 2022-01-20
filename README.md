@@ -10,5 +10,4 @@ The gameplay of Wordie is meant to emulate the original as closely as possible i
 (WIP)
 
 ## TODO
-- Ensure guesses are part of the guess bank (Prevent random character guessing)
 - Utilize optionals to avoid returning null values in Dictionary class

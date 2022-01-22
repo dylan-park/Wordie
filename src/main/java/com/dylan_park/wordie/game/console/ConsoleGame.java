@@ -1,7 +1,8 @@
-package com.dylan_park.wordie.game;
+package com.dylan_park.wordie.game.console;
 
 import com.dylan_park.wordie.data.Dictionary;
 import com.dylan_park.wordie.data.Word;
+import com.dylan_park.wordie.game.IGame;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

@@ -1,6 +1,7 @@
 package com.dylan_park.wordie.game;
 
 import com.dylan_park.wordie.data.Dictionary;
+import com.dylan_park.wordie.game.console.ConsoleGame;
 import org.junit.Before;
 import org.junit.Test;
 

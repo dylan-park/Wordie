@@ -1,20 +1,18 @@
-package com.dylan_park.wordie.game;
+package com.dylan_park.wordie.game.web;
 
 import com.dylan_park.wordie.data.Dictionary;
 import com.dylan_park.wordie.data.Word;
+import com.dylan_park.wordie.game.IGame;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import spark.ModelAndView;
-import spark.template.thymeleaf.ThymeleafTemplateEngine;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 
-import static spark.Spark.*;
-
+@SpringBootApplication
 public class WebGame implements IGame {
     private int tries;
     private final Word word;
@@ -22,25 +20,10 @@ public class WebGame implements IGame {
     private String[] output;
     private boolean win;
     private boolean valid;
-    private static Map map = new HashMap();
     private static final Logger logger = LoggerFactory.getLogger(WebGame.class);
 
     public static void main(String[] args) {
-        Dictionary dictionary = new Dictionary("src/main/resources/dictionary.txt");
-        Dictionary bank = new Dictionary("src/main/resources/bank.txt");
-        get("/", (rq, rs) -> {
-            IGame webGame = new WebGame(dictionary, bank);
-            ((WebGame) webGame).loadMap();
-            return new ThymeleafTemplateEngine().render(
-                    new ModelAndView(map, "webGame")
-                    );
-        });
-    }
-
-    public void loadMap() {
-        for (int i = 0; i < this.word.getWordArray().length; i++) {
-            map.put("letter" + i, this.word.getWordArray()[i]);
-        }
+        SpringApplication.run(WebGame.class, args);
     }
 
 
@@ -60,5 +43,9 @@ public class WebGame implements IGame {
     @Override
     public void guess(String input) {
 
+    }
+
+    public Word getWord() {
+        return word;
     }
 }

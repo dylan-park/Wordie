@@ -13,4 +13,4 @@ The Wordie word-bank was created by parsing the top 18,000 words from the englis
 
 ## TODO
 - Build web app
-- Utilize optionals to avoid returning null values in com.dylan_park.wordie.data.Dictionary class
+- Utilize optionals to avoid returning null values in Dictionary class

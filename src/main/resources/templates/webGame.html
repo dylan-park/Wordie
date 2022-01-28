@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Wordie</title>
+    <script>
+        function submitWord(ele) {
+            if(event.key === 'Enter') {
+                alert(ele.value);
+            }
+        }
+    </script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/clear-sans.css">
     <style>
         :root {font-family: 'Clear Sans', Arial, sans-serif;}
@@ -30,8 +37,8 @@
         .container {
             display: flex;
             justify-content: center;
-            padding-top: 10%;
-            padding-bottom: 5%;
+            padding-top: 5%;
+            padding-bottom: 2%;
         }
 
         .grid {
@@ -54,6 +61,25 @@
         .game-keyboard {
             display: flex;
             justify-content: center;
+        }
+
+        input[type=text] {
+            font-size: 20px;
+            font-weight: bold;
+            color: #d7dadc;
+            background-color: #3a3a3c;
+            height: 35px;
+            width: 325px;
+            border-radius: 5px;
+            text-align: center;
+            overflow: hidden;
+            text-transform: uppercase;
+        }
+
+        /* Remove this if button is needed, otherwise remove button during development */
+        input[type=button] {
+            visibility:hidden;
+            position: absolute;
         }
     </style>
 </head>
@@ -105,7 +131,7 @@
 </div>
 
 <div class="game-keyboard">
-    <input id="word" maxlength="5" minlength="5" name="word" size="10" type="text">
+    <input id="word" type="text" maxlength="5" minlength="5" name="word" size="10" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" onkeydown="submitWord(this)">
     <input type="button" value="Submit">
 </div>
 

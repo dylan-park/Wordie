@@ -12,18 +12,12 @@ import java.util.Scanner;
 
 public class ConsoleGame implements IGame {
     private int tries;
+    private boolean valid;
     private final Word word;
     private final ArrayList<String> bank;
     private String[] output;
     private boolean win;
-    private boolean valid;
 
-    public static void main(String[] args) {
-        Dictionary dictionary = new Dictionary("src/main/resources/dictionary.txt");
-        Dictionary bank = new Dictionary("src/main/resources/bank.txt");
-        IGame consoleGame = new ConsoleGame(dictionary, bank);
-        consoleGame.gameLoop();
-    }
 
     public ConsoleGame(@NotNull Dictionary dictionary, @NotNull Dictionary bank) {
         this.word = new Word(dictionary.getDictionaryArray().get(new Random().nextInt(dictionary.getDictionaryArray().size())));
@@ -43,23 +37,10 @@ public class ConsoleGame implements IGame {
             System.out.print("Enter Guess: ");
             String input = scanner.nextLine();
             guess(input);
-            // If win was set in the guess, Display output and break loop (Beyond 6 for future check)
-            if (win) {
-                System.out.println(Arrays.toString(output));
-                tries = 7;
-                // If answer was otherwise valid, display the output and increment tries
-            } else {
-                if (valid) {
-                    System.out.println(Arrays.toString(output));
-                    tries++;
-                }
-            }
-        }
-        // If user has 6 tries the game is over naturally, display message and word and loop ends
-        if (tries == 6) {
-            System.out.println("Game Over! The word was: " + word.getWordString());
+            stateCheck(win, valid, tries);
         }
     }
+
 
     @Override
     public void guess(@NotNull String input) {
@@ -95,8 +76,30 @@ public class ConsoleGame implements IGame {
             }
             // If word is incorrect length
         } else {
-            System.out.println("com.dylan_park.wordie.data.Word is invalid, try again");
+            invalidGuess();
         }
+    }
+
+    @Override
+    public void validGuess() {
+        System.out.println(Arrays.toString(output));
+        tries++;
+    }
+
+    @Override
+    public void invalidGuess() {
+        System.out.println("Word is invalid, try again");
+    }
+
+    @Override
+    public void winGame() {
+        System.out.println(Arrays.toString(output));
+        tries = 7;
+    }
+
+    @Override
+    public void loseGame() {
+        System.out.println("Game Over! The word was: " + word.getWordString());
     }
 
     public String getOutputString() {

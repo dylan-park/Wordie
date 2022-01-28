@@ -3,54 +3,111 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Wordie</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/clear-sans.css">
+    <style>
+        :root {font-family: 'Clear Sans', Arial, sans-serif;}
+        body {
+            background-color: #121213;
+            color: #d7dadc;
+        }
+
+        .title {
+            color: #d7dadc;
+            font-weight: 700;
+            font-size: 36px;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        hr {
+            width: 500px;
+            background-color: #3a3a3c;
+            height:1px;
+            border-width:0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding-top: 10%;
+            padding-bottom: 5%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 62px);
+            grid-template-rows: repeat(6, 62px);
+            grid-gap: 6px;
+        }
+
+        .cell {
+            border: 2px solid #3a3a3c;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .game-keyboard {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-<h1>Wordie</h1>
-<table>
-    <tr>
-        <th th:text="${letter0}">Letter 1</th>
-        <th th:text="${letter1}">Letter 2</th>
-        <th th:text="${letter2}">Letter 3</th>
-        <th th:text="${letter3}">Letter 4</th>
-        <th th:text="${letter4}">Letter 5</th>
-    </tr>
-    <tr>
-        <th th:text="${letterx}">Letter 1</th>
-        <th th:text="${letterx}">Letter 2</th>
-        <th th:text="${letterx}">Letter 3</th>
-        <th th:text="${letterx}">Letter 4</th>
-        <th th:text="${letterx}">Letter 5</th>
-    </tr>
-    <tr>
-        <th th:text="${letterx}">Letter 1</th>
-        <th th:text="${letterx}">Letter 2</th>
-        <th th:text="${letterx}">Letter 3</th>
-        <th th:text="${letterx}">Letter 4</th>
-        <th th:text="${letterx}">Letter 5</th>
-    </tr>
-    <tr>
-        <th th:text="${letterx}">Letter 1</th>
-        <th th:text="${letterx}">Letter 2</th>
-        <th th:text="${letterx}">Letter 3</th>
-        <th th:text="${letterx}">Letter 4</th>
-        <th th:text="${letterx}">Letter 5</th>
-    </tr>
-    <tr>
-        <th th:text="${letterx}">Letter 1</th>
-        <th th:text="${letterx}">Letter 2</th>
-        <th th:text="${letterx}">Letter 3</th>
-        <th th:text="${letterx}">Letter 4</th>
-        <th th:text="${letterx}">Letter 5</th>
-    </tr>
-    <tr>
-        <th th:text="${letterx}">Letter 1</th>
-        <th th:text="${letterx}">Letter 2</th>
-        <th th:text="${letterx}">Letter 3</th>
-        <th th:text="${letterx}">Letter 4</th>
-        <th th:text="${letterx}">Letter 5</th>
-    </tr>
-</table>
-<input type="text" id="word" name="word" minlength="5" maxlength="5" size="10">
-<input type="button" value="Submit">
+<header>
+<div class="title">
+    WORDIE
+    <hr/>
+</div>
+</header>
+<div class="container">
+    <div class="grid">
+        <div th:text="${letter0}" class="cell" id="1">A</div>
+        <div th:text="${letter1}" class="cell" id="2">B</div>
+        <div th:text="${letter2}" class="cell" id="3">C</div>
+        <div th:text="${letter3}" class="cell" id="4">D</div>
+        <div th:text="${letter4}" class="cell" id="5">E</div>
+
+        <div th:text="${letterx}" class="cell" id="6">A</div>
+        <div th:text="${letterx}" class="cell" id="7">B</div>
+        <div th:text="${letterx}" class="cell" id="8">C</div>
+        <div th:text="${letterx}" class="cell" id="9">D</div>
+        <div th:text="${letterx}" class="cell" id="10">E</div>
+
+        <div th:text="${letterx}" class="cell" id="11">A</div>
+        <div th:text="${letterx}" class="cell" id="12">B</div>
+        <div th:text="${letterx}" class="cell" id="13">C</div>
+        <div th:text="${letterx}" class="cell" id="14">D</div>
+        <div th:text="${letterx}" class="cell" id="15">E</div>
+
+        <div th:text="${letterx}" class="cell" id="16">A</div>
+        <div th:text="${letterx}" class="cell" id="17">B</div>
+        <div th:text="${letterx}" class="cell" id="18">C</div>
+        <div th:text="${letterx}" class="cell" id="19">D</div>
+        <div th:text="${letterx}" class="cell" id="20">E</div>
+
+        <div th:text="${letterx}" class="cell" id="21">A</div>
+        <div th:text="${letterx}" class="cell" id="22">B</div>
+        <div th:text="${letterx}" class="cell" id="23">C</div>
+        <div th:text="${letterx}" class="cell" id="24">D</div>
+        <div th:text="${letterx}" class="cell" id="25">E</div>
+
+        <div th:text="${letterx}" class="cell" id="26">A</div>
+        <div th:text="${letterx}" class="cell" id="27">B</div>
+        <div th:text="${letterx}" class="cell" id="28">C</div>
+        <div th:text="${letterx}" class="cell" id="29">D</div>
+        <div th:text="${letterx}" class="cell" id="30">E</div>
+    </div>
+</div>
+
+<div class="game-keyboard">
+    <input id="word" maxlength="5" minlength="5" name="word" size="10" type="text">
+    <input type="button" value="Submit">
+</div>
+
 </body>
 </html>
